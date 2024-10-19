@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Florence</title>
+    <link rel="shortcut icon" href="animais-de-estimacao.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(#fd0098, #ff8569);
+        }
+
+        header {
+            position: static;
+            display: flex;
+            width: 100%;
+            padding: 20px 50px; /* Alterado para melhor adaptação em dispositivos móveis */
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            overflow: hidden;
+        }
+
+        header ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Para os itens ficarem empilhados em telas menores */
+        }
+
+        header ul li {
+            margin-left: 15px; /* Ajustado para menor espaçamento em dispositivos móveis */
+            list-style: none;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            padding: 10px 15px;
+            color: #000000;
+            border-radius: 20px;
+        }
+
+        header ul li a:hover,
+        header ul li a.active {
+            background: #000000;
+            color: #ffffff;
+        }
+
+        #carrossel {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        aside {
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        aside > p {
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            padding-bottom: 20px;
+        }
+
+        #text {
+            color: #000000;
+            margin-bottom: 30px;
+            font-size: 3.5em;
+        }
+
+        #btn {
+            display: inline-block;
+            padding: 8px 30px;
+            border-radius: 40px;
+            background: #bdfbc1;
+            color: #b84df2;
+            font-size: 1.5em;
+        }
+
+        .sec {
+            padding: 50px 20px;
+            background: #bdfbc1;
+        }
+
+        .sec h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .sec p {
+            font-size: 1em;
+            color: #000000;
+            margin: 20px 0;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(255, 0, 119, 0.633);
+            color: #000000;
+            text-align: center;
+        }
+
+        a {
+            color: #190B29;
+        }
+
+        img {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Media Queries para Responsividade */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            header ul {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            #carrossel {
+                width: 100%;
+                margin: 10px auto;
+            }
+
+            .sec {
+                padding: 20px 10px;
+            }
+
+            .sec h2 {
+                font-size: 1.8em;
+            }
+
+            footer {
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .sec h2 {
+                font-size: 1.5em;
+            }
+
+            header ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="logo" height="70px" width="70px" src="C:\sophiaplb\img\logo.png" alt="Logo da Florence">
+        <ul>
+            <li><a href="#Sobre" class="active">Sobre</a></li>
+            <li><a href="#historia">História</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="index.html" target="_blank" rel="external">Loja</a></li>
+        </ul>
+    </header>
+
+    <div id="sec" class="sec">
+        <h1 id="Sobre">Florence</h1>
+
+        <div id="carrossel">
+            <img height="350px" width="1000px" src="C:\sophiaplb\img\carrossel.png.jpg" alt="Carrossel de flores">
+        </div>
+
+        <p>
+            A <strong>Florence</strong> é uma das maiores e mais renomadas Floriculturas online especializadas em flores naturais e artificiais em todo o Brasil...
+        </p>
+
+        <figure>
+            <img height="350px" width="500px" src="C:\sophiaplb\img\centro-distribuicao.png" alt="Centro de Distribuição da Florence">
+            <figcaption><em>Sede da Florence</em></figcaption>
+        </figure>
+
+        <h2 id="historia">História</h2>
+        <figure>
+            <img height="350px" width="500px" src="C:\sophiaplb\img\familia-melo.png" alt="Família Melo">
+            <figcaption><em>Família Melo</em></figcaption>
+        </figure>
+
+        <aside>
+            <p>A história da Florence teve início há mais de três décadas, quando a <em>família Melo</em>...</p>
+        </aside>
+
+        <h2 id="diferenciais">Diferenciais</h2>
+        <ul>
+            <li>Entrega rápida - receba no mesmo dia!</li>
+            <li>Produtos de melhor qualidade por preços baixos</li>
+            <li>25% de desconto em ocasiões especiais</li>
+            <li>Facilidade no pagamento - 3x sem juros</li>
+            <li>Ofertas exclusivas para sua cidade</li>
+            <li>Frete grátis em compras a partir de R$90,00</li>
+        </ul>
+
+    </div>
+
+    <footer>
+        <p>Nós aprendemos muito e nos divertimos fazendo esse trabalho...</p>
+    </footer>
+
+</body>
+</html>
