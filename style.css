@@ -69,34 +69,6 @@ header ul li a.active
     
 }
 
-/*section
-{
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section img
-{
-  position: absolute;
-  top: 1;
-  left: 0;
-  max-width: 100%;
-  height: 100%;
-
-
-     <p>Compre as roupas e acessórios para o seu bichinho de estimação na
-     Piticos Pet. Acesse <a href="index.html"target="_blank" rel="external">nossa loja</a> ou entre em contato se tiver dúvidas.
-     Conheça também nossa <a href="#historia">história</a> e nossos <a
-      href="#diferenciais">diferenciais</a></p>
-
-
-
-}*/
-
 #carrossel {
 position:relative;
 top: 5px;
