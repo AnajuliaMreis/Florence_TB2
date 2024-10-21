@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Opine nossa loja</title>
+<style>
+    body
+    {
+        min-height: 100vh;
+        background: linear-gradient(#fd0098, #ff8569);
+    }
+    header
+    {
+        position: static;
+        display: flex;
+        width: 100%;
+        padding: 20px 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo
+    { 
+        overflow: hidden;
+    }
+    header ul
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header ul li
+    {
+        margin-left: 30px;
+        list-style: none;
+    }
+    header ul li a
+    {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #000000;
+        border-radius: 20px;
+        
+    }
+    
+    
+    header ul li a:hover,
+    header ul li a.active
+    {
+        background: #000000;
+        color: #ffffff;
+        
+    }
+    
+    main {
+        position: relative;
+        padding: 100px;
+        background: #bdfbc1;
+    }
+</style>
+
 </head>
 <body>
+
+    <header>
+        <img id="logo" height="70px"  width="70px" src= "C:\sophiaplb\img\logo.png" alt="">
+        <ul>       
+          <li><a class="active">Opine</a></li>
+          <li><a href="index.html" target="_blank" rel="external">Loja</a></li>
+          <li><a href="sobre.html" target="_blank" rel="external">Sobre</a></li>
+        </ul>
+      </header>
+
+
     <div id="opine">
         <form action="/pagina-processa-dados-do-form" method="post">
             <div>
