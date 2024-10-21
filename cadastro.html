@@ -15,12 +15,19 @@ body
     min-height: 100vh;
     background: linear-gradient(#fd0098, #ff8569);
 }
+
+    main {
+    position: relative;
+    padding: 100px;
+    background: #bdfbc1;
+}
+
 header
 {
     position: static;
     display: flex;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 70px;
     justify-content: space-between;
     align-items: center;
 }
@@ -63,25 +70,18 @@ header ul li a.active
     <header>
         <img id="logo" height="70px"  width="70px" src= "C:\sophiaplb\img\logo.png" alt="">
         <ul>       
-          <li><a class="active">Loja</a></li>
-          <li><a href="cadastro.html" target="_blank" rel="external">Cadastro</a></li>
-          <li><a href="#opine">Opine</a></li>
+          <li><a class="active">Cadastro</a></li>
+          <li><a href="index.html" target="_blank" rel="external">Loja</a></li>
+          <li><a href="opine.html">Opine</a></li>
           <li><a href="sobre.html" target="_blank" rel="external">Sobre</a></li>
         </ul>
       </header>
 
-    <nav>
-        <li><a href>Buquês</a></li>
-        <li><a href>Arranjos</a></li>
-        <li><a href>Cestas</a></li>
-        <li><a href>Presentes</a></li>
-        
-    </nav>
 
 
 
 
-
+<main>
     <h2>Cadastro de Usuário</h2>
     <form action="/cadastrar" method="POST">
 
@@ -128,6 +128,7 @@ header ul li a.active
         <input type="submit" value="Cadastrar">
     </form>
 </div>
+</main>
 
 </body>
 </html>
