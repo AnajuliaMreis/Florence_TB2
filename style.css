@@ -13,7 +13,19 @@
     body {
         font-size: 14px;
     }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+header {
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -130,18 +142,59 @@ h1
 }
 
 
-
-
-footer
-{
-    position: static;
-    display: flex;
-    width: 100%;
-    padding: 20px 100px;
+footer {
     background-color: rgba(255, 0, 119, 0.633);
     color: #000000;
-
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-sobre, .footer-serviços, .footer-contato, .footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-sobre h3, .footer-serviços h3, .footer-contato h3, .footer-social h3 {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+.footer-serviços ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-serviços li {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    display: block;
+    margin: 5px 0;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.footer-bottom a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+
 a {
     color: #190B29;
 }
