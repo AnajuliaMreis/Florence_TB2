@@ -24,7 +24,19 @@ header {
     justify-content:space-around;
 }
 
+#carrossel > img {
+    justify-content: space-around;
+width: 511px;
+height: 270px;
 }
+
+aside {
+    position: relative;
+    top:20px;
+    left:10px;
+}
+}
+
 
 
 * {
